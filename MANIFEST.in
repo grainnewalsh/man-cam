@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include cust_acc_mgmt *.css
+recursive-include cust_acc_mgmt *.csv
+recursive-include cust_acc_mgmt *.html
+recursive-include cust_acc_mgmt *.ico
+recursive-include cust_acc_mgmt *.js
+recursive-include cust_acc_mgmt *.json
+recursive-include cust_acc_mgmt *.md
+recursive-include cust_acc_mgmt *.png
+recursive-include cust_acc_mgmt *.py
+recursive-include cust_acc_mgmt *.svg
+recursive-include cust_acc_mgmt *.txt
+recursive-exclude cust_acc_mgmt *.pyc
